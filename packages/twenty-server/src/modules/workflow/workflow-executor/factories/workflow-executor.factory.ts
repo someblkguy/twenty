@@ -10,6 +10,7 @@ import { CodeWorkflowAction } from 'src/modules/workflow/workflow-executor/workf
 import { FilterWorkflowAction } from 'src/modules/workflow/workflow-executor/workflow-actions/filter/filter.workflow-action';
 import { FormWorkflowAction } from 'src/modules/workflow/workflow-executor/workflow-actions/form/form.workflow-action';
 import { SendEmailWorkflowAction } from 'src/modules/workflow/workflow-executor/workflow-actions/mail-sender/send-email.workflow-action';
+import { SendNotificationWorkflowAction } from 'src/modules/workflow/workflow-executor/workflow-actions/notification/send-notification.workflow-action';
 import { CreateRecordWorkflowAction } from 'src/modules/workflow/workflow-executor/workflow-actions/record-crud/create-record.workflow-action';
 import { DeleteRecordWorkflowAction } from 'src/modules/workflow/workflow-executor/workflow-actions/record-crud/delete-record.workflow-action';
 import { FindRecordsWorkflowAction } from 'src/modules/workflow/workflow-executor/workflow-actions/record-crud/find-records.workflow-action';
@@ -21,6 +22,7 @@ export class WorkflowExecutorFactory {
   constructor(
     private readonly codeWorkflowAction: CodeWorkflowAction,
     private readonly sendEmailWorkflowAction: SendEmailWorkflowAction,
+    private readonly sendNotificationWorkflowAction: SendNotificationWorkflowAction,
     private readonly createRecordWorkflowAction: CreateRecordWorkflowAction,
     private readonly updateRecordWorkflowAction: UpdateRecordWorkflowAction,
     private readonly deleteRecordWorkflowAction: DeleteRecordWorkflowAction,
@@ -35,6 +37,8 @@ export class WorkflowExecutorFactory {
         return this.codeWorkflowAction;
       case WorkflowActionType.SEND_EMAIL:
         return this.sendEmailWorkflowAction;
+      case WorkflowActionType.SEND_NOTIFICATION:
+        return this.sendNotificationWorkflowAction;
       case WorkflowActionType.CREATE_RECORD:
         return this.createRecordWorkflowAction;
       case WorkflowActionType.UPDATE_RECORD:
