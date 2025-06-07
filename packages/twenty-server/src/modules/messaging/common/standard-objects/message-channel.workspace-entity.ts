@@ -48,6 +48,8 @@ export enum MessageChannelVisibility {
 export enum MessageChannelType {
   EMAIL = 'email',
   SMS = 'sms',
+  PHONE_CALL = 'phone_call',
+  LIVE_CHAT = 'live_chat',
 }
 
 export enum MessageChannelContactAutoCreationPolicy {
@@ -145,6 +147,18 @@ export class MessageChannelWorkspaceEntity extends BaseWorkspaceEntity {
         label: 'SMS',
         position: 1,
         color: 'blue',
+      },
+      {
+        value: MessageChannelType.PHONE_CALL,
+        label: 'Phone Call',
+        position: 2,
+        color: 'orange',
+      },
+      {
+        value: MessageChannelType.LIVE_CHAT,
+        label: 'Live Chat',
+        position: 3,
+        color: 'purple',
       },
     ],
     defaultValue: `'${MessageChannelType.EMAIL}'`,

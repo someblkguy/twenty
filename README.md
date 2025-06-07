@@ -54,6 +54,7 @@ Below are a few features we have implemented to date:
 + [See rich notes tasks displayed in a timeline](#see-rich-notes-tasks-displayed-in-a-timeline)
 + [Create tasks on records](#create-tasks-on-records)
 + [Navigate quickly through the app using keyboard shortcuts and search](#navigate-quickly-through-the-app-using-keyboard-shortcuts-and-search)
++ [Engage across channels with multi-channel communication](#track-deals-effortlessly-with-multi-channel-communication)
 
 
 ## Add, filter, sort, edit, and track customers:
@@ -76,7 +77,7 @@ Below are a few features we have implemented to date:
     </picture>
 </p>
 
-## Track deals effortlessly with the email integration:
+## Track deals effortlessly with multi-channel communication:
 
 <p align="center">
     <picture>
