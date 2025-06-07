@@ -53,6 +53,7 @@ Below are a few features we have implemented to date:
 + [Create one or several opportunities for each company](#create-one-or-several-opportunities-for-each-company)
 + [See rich notes tasks displayed in a timeline](#see-rich-notes-tasks-displayed-in-a-timeline)
 + [Create tasks on records](#create-tasks-on-records)
++ [AI-driven lead scoring & insights](#ai-driven-lead-scoring--insights)
 + [Navigate quickly through the app using keyboard shortcuts and search](#navigate-quickly-through-the-app-using-keyboard-shortcuts-and-search)
 
 
@@ -115,6 +116,11 @@ Below are a few features we have implemented to date:
       <img src="./packages/twenty-docs/static/img/create-tasks-light.png" alt="Tasks" />
     </picture>
 </p>
+
+## AI-driven lead scoring & insights
+
+Automatically rank leads and identify at-risk deals using built-in machine learning models.
+
 
 ## Navigate quickly through the app using keyboard shortcuts and search:
 
