@@ -54,6 +54,7 @@ Below are a few features we have implemented to date:
 + [See rich notes tasks displayed in a timeline](#see-rich-notes-tasks-displayed-in-a-timeline)
 + [Create tasks on records](#create-tasks-on-records)
 + [Navigate quickly through the app using keyboard shortcuts and search](#navigate-quickly-through-the-app-using-keyboard-shortcuts-and-search)
++ [Build custom dashboards with advanced reporting](#custom-dashboards)
 
 
 ## Add, filter, sort, edit, and track customers:
@@ -132,9 +133,13 @@ Below are a few features we have implemented to date:
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/twentyhq/twenty/v0.12.0/packages/twenty-docs/static/img/api-dark.png" />
       <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/twentyhq/twenty/v0.12.0/packages/twenty-docs/static/img/api-light.png" />
-      <img src="./packages/twenty-docs/static/img/api-light.png" alt="API" />
-    </picture>
+  <img src="./packages/twenty-docs/static/img/api-light.png" alt="API" />
+  </picture>
 </p>
+
+## Custom Dashboards
+
+Visualize your KPIs with configurable charts and reports.
 
 
 <br />
