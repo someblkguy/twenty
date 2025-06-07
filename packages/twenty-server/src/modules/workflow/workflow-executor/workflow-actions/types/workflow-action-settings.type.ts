@@ -3,6 +3,7 @@ import { WorkflowCodeActionSettings } from 'src/modules/workflow/workflow-execut
 import { WorkflowFilterActionSettings } from 'src/modules/workflow/workflow-executor/workflow-actions/filter/types/workflow-filter-action-settings.type';
 import { WorkflowFormActionSettings } from 'src/modules/workflow/workflow-executor/workflow-actions/form/types/workflow-form-action-settings.type';
 import { WorkflowSendEmailActionSettings } from 'src/modules/workflow/workflow-executor/workflow-actions/mail-sender/types/workflow-send-email-action-settings.type';
+import { WorkflowSendNotificationActionSettings } from 'src/modules/workflow/workflow-executor/workflow-actions/notification/types/workflow-send-notification-action-settings.type';
 import {
   WorkflowCreateRecordActionSettings,
   WorkflowDeleteRecordActionSettings,
@@ -24,6 +25,7 @@ export type BaseWorkflowActionSettings = {
 
 export type WorkflowActionSettings =
   | WorkflowSendEmailActionSettings
+  | WorkflowSendNotificationActionSettings
   | WorkflowCodeActionSettings
   | WorkflowCreateRecordActionSettings
   | WorkflowUpdateRecordActionSettings
