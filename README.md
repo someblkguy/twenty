@@ -55,6 +55,7 @@ Below are a few features we have implemented to date:
 + [Create tasks on records](#create-tasks-on-records)
 + [AI-driven lead scoring & insights](#ai-driven-lead-scoring--insights)
 + [Navigate quickly through the app using keyboard shortcuts and search](#navigate-quickly-through-the-app-using-keyboard-shortcuts-and-search)
++ [Engage across channels with multi-channel communication](#track-deals-effortlessly-with-multi-channel-communication)
 
 
 ## Add, filter, sort, edit, and track customers:
@@ -77,7 +78,7 @@ Below are a few features we have implemented to date:
     </picture>
 </p>
 
-## Track deals effortlessly with the email integration:
+## Track deals effortlessly with multi-channel communication:
 
 <p align="center">
     <picture>

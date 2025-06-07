@@ -20,6 +20,7 @@ export type CreateMessageChannelInput = {
   workspaceId: string;
   connectedAccountId: string;
   handle: string;
+  type?: MessageChannelType;
   messageVisibility?: MessageChannelVisibility;
   manager: WorkspaceEntityManager;
 };
@@ -40,6 +41,7 @@ export class CreateMessageChannelService {
       workspaceId,
       connectedAccountId,
       handle,
+      type = MessageChannelType.EMAIL,
       messageVisibility,
       manager,
     } = input;
@@ -54,7 +56,7 @@ export class CreateMessageChannelService {
       {
         id: v4(),
         connectedAccountId,
-        type: MessageChannelType.EMAIL,
+        type,
         handle,
         visibility:
           messageVisibility || MessageChannelVisibility.SHARE_EVERYTHING,
